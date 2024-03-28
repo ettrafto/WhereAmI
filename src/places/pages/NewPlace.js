@@ -25,7 +25,7 @@ const NewPlace = () => {
         }
     },false);
     
-
+    
     {/* entire form validation */}
     {/* using useCallback to avoid infinite loop between this function and Input useEffect function,
     with empty dependiencies: always going to be reused  */}
